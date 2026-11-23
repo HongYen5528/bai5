@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3effa;
+  margin: 0;
+  padding: 35px 16px;
+}
+.form-card {
+  max-width: 420px;
+  margin: auto;
+  padding: 28px;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px #30204a20;
+}
+h1 { text-align: center; color: #67449a; font-size: 23px; }
+label, .field-title { display: block; margin: 14px 0 6px; color: #333; }
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px;
+  border: 1px solid #b9accb;
+  border-radius: 7px;
+}
+.gender { display: flex; gap: 20px; }
+.gender label { display: flex; align-items: center; gap: 5px; }
+button {
+  width: 100%;
+  margin-top: 22px;
+  padding: 12px;
+  border: 0;
+  border-radius: 7px;
+  background: #67449a;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover { background: #4d3276; }
